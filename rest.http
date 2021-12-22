@@ -1,0 +1,5 @@
+GET http://localhost:3040/get-session
+Content-Type: text/html
+
+GET http://localhost:3040/set-session
+Content-Type: application/json
