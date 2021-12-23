@@ -29,6 +29,7 @@ app.get("/set-cookie", (req, res) => {
 });
 
 app.get("/del-cookie", (req, res) => {
+  res.clearCookie("cart");
   res.send("Del OK!");
 });
 
