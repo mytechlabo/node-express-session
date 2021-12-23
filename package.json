@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
+    "dev": "nodemon session.js",
+    "dev2": "nodemon cookie.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "connect-redis": "^6.0.0",
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "ioredis": "^4.28.2",
